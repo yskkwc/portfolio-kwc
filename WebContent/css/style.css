@@ -11,10 +11,14 @@ body {
    min-height: 100vh;
    box-sizing: border-box;
 }
+p.body{
+  text-size: 75%;
+}
 header {
     padding: 30px 4% 10px;
     padding-bottom: 20px;
     position: fixed;
+    z-index: 9999;
     top: 0;
     width: 100%;
     background-color: #fff;
@@ -27,6 +31,10 @@ h1 {
 }
 h2.ptitle{
   padding-bottom: 5px;
+  padding-left: 10px;
+}
+h2.atitle{
+  text-align: center;
 }
 a {
   text-decoration: none;
@@ -45,25 +53,39 @@ nav{
   margin: 0 0 0 auto;
 }
 div#content{
+  position: relative;
   width: 100%;
   padding: 108px;
   padding-top: 20px;
   line-height: 24px;
   text-align: center;
+  word-break: break-all;
   .font_space: {letter-spacing: 0.1em}
 }
 div.text{
   background-color: #fff;
-  padding: 18px;
+  padding: 78px;
+  height: 500px;
+  text-align: center;
+  border-radius:9%;
+}
+div.text1{
+  background-color: #fff;
+  width: 100%;
+  height: 100%;
+  margin: 12px;
+  padding: 145px;
+  padding-bottom: 185px;
   text-align: left;
-
+  border-radius:48%;
 }
 div.languege{
   background-color: #fff;
-  padding: 18px;
+  padding: 78px;
   width: 80%;
   text-align: center;
   margin-left: 10%;
+  border-radius:45%;
 
 }
 div.productions{
@@ -85,12 +107,16 @@ div.title{
 }
 div.title1{
   background-color: #fff;
-  width: 80%;
-  margin-left: 10%;
+  width: 50%;
+  padding: 20px;
+  margin-left: 25%;
   text-align: center;
+  border-radius:48%;
 }
+
 p.intro{
   font-size: 90%;
+  display: inline-block;
 }
 table.keireki{
   width: 100%;
@@ -115,29 +141,99 @@ table.keireki td {
   border: solid 1px black;
 }
 table.skills{
-  width: 100%;
+  width: 64%;
   text-align: center;
-  padding: 10px;
-  margin: 10px;
+  padding: 25px;
+  margin: 25px;
   vertical-align: top;
   border-collapse: separate;
-  border-spacing: 0px 5px;
+  border: none;
+  border-spacing: 3px 9px;
+  margin-left: 25%;
 }
 table.skills th {
-  width: 20%;
-  padding: 10px;
+  width: 10%;
+  padding: 30px;
   font-weight: bold;
-  vertical-align: top;
+  vertical-align: center;
   background: #DDDDDD;
   color: #000;
   border: solid 1px black;
+  border: none;
+  border-radius:48%;
 }
 table.skills td {
-  width: 40%;
+  width: 33%;
   padding: 10px;
   vertical-align: middle;
   border: solid 1px black;
+  border: none;
 }
+table.skills tr{
+
+}
+table.product{
+  width: 77%;
+  text-align: center;
+  padding: 5px;
+  margin: 5px;
+  vertical-align: top;
+  border-collapse: separate;
+  border: none;
+  border-spacing: 3px 9px;
+  margin-left: 4px;
+}
+table.product th {
+  width: 20%;
+  height: 5%;
+  padding: 15px;
+  font-weight: bold;
+  vertical-align: center;
+  background: #DDDDDD;
+  color: #000;
+  border: solid 1px black;
+  border: none;
+  border-radius:48%;
+}
+table.product td {
+  width: 40%;
+  position: relative;
+  padding: 10px;
+  vertical-align: middle;
+  border: solid 1px black;
+  border: none;
+}
+table.product1{
+  width: 56%;
+  text-align: center;
+  padding: 5px;
+  margin: 5px;
+  vertical-align: top;
+  border-collapse: separate;
+  border: none;
+  border-spacing: 3px 9px;
+  margin-left: 30%;
+}
+table.product1 th {
+  width: 10%;
+  padding: 30px;
+  font-weight: bold;
+  vertical-align: center;
+  background: #DDDDDD;
+  color: #000;
+  border: solid 1px black;
+  border: none;
+  border-radius:48%;
+}
+table.product1 td {
+  width: 40%;
+  padding: 10px;
+  texit-align: left;
+  vertical-align: middle;
+  border: solid 1px black;
+  border: none;
+}
+
 p.body{
   padding-left: 2%;
   font-size: 90%
@@ -154,8 +250,60 @@ div#footer{
 div.content1{
   display: inline-block;
   padding: 30px;
-  margin: 30px;
-  height:  300px;
-  width: 80%;
+  margin:  35px;
+  margin-left: 5px;
+  height:  760px;
+  width: 100%;
   background-color: #fff;
+  border-radius:50%;
+}
+div.content2{
+  display: inline-block;
+  padding: 20px;
+  margin: 10px;
+  height:  900px;
+  width: 100%;
+  background-color: #fff;
+  border-radius:25%;
+}
+a.url{
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  margin: 0;
+  padding: 0 20px;
+  font-size: 90%;
+  color: #fb8b24;
+  text-shadow: 0 0 50px #fb8b24;
+  letter-spacing: 5px;
+  text-decoration: underline;
+}
+
+a.url:after{
+  content: attr(data-text);
+  top: 0;
+  left: 0;
+  padding: 0 20px;
+  z-index: -1;
+  color: #fb8b24;
+  filter: blur(15px);
+}
+
+a.url:before{
+  content: '';
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: #fb8b24;
+  z-index: -2;
+  opacity: .3;
+  filter: blur(50px);
+}
+div.or{
+  text-align: center;
+  margin-top: 38px;
+}
+p.title{
+
 }

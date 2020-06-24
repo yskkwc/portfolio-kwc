@@ -4,11 +4,11 @@
   <c:param name="content">
   <div class="languege">
     <h2 class="title">Skills;</h2>
-    <p>学習してきたスキル(2020年 4月〜)</p>
+    <p>学習してきたスキル(全て2020年 4月〜)</p>
   <table class="skills">
     <tr>
         <th>言語</th>
-        <td>Java, SQL</td>
+        <td>Java/SQL</td>
     </tr>
      <tr>
         <th>DB</th>
@@ -24,7 +24,7 @@
     </tr>
     <tr>
         <th>その他ツール</th>
-        <td>git, heroku, slack</td>
+        <td>git/github/heroku/slack</td>
     </tr>
   </table>
   </div>

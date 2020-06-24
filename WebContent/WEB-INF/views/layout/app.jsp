@@ -16,7 +16,7 @@
               <li><a href="<c:url value='/page/aboutme'/>">About me</a></li>
               <li><a href="<c:url value='/page/skill'/>">Skills</a></li>
               <li><a href="<c:url value='/page/production'/>">Productions</a></li>
-              <li><a href="#">Contact</a></li>
+              <li><a href="<c:url value='/page/contact'/>">Contact</a></li>
             </ul>
           </nav>
         </header>
