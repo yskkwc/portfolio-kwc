@@ -12,7 +12,7 @@
 </head>
 <header>
   <h1>
-    <a href='/portfolio'>Yusuke Kawachi's portfolio</a>
+    <a href="<c:url value='/page/aboutme'/>">Yusuke Kawachi's portfolio</a>
   </h1>
   <nav class="nav">
     <ul>
