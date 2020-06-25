@@ -145,10 +145,6 @@ div.title1 {
   border-radius: 48%;
 }
 
-div.content3 {
-
-}
-
 p.intro {
   font-size: 90%;
   display: inline-block;
@@ -404,10 +400,6 @@ div.or {
   margin-top: 38px;
 }
 
-p.title {
-
-}
-
 a.url1 {
   transform: translate(-50%, -50%);
   margin: 0;
@@ -421,7 +413,9 @@ a.url1 {
 
 div.otitle {
   position: relative;
-  width: 100%;
+  padding: 10px;
+  width: 40%;
+  margin-left: 28%;
   line-height: 24px;
   text-align: center;
   word-break: break-all;
