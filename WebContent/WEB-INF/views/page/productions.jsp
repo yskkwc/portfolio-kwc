@@ -29,7 +29,7 @@
         <tr>
           <th>URL</th>
           <td><a class="url"
-            href="<c:url value='https://github.com/yskkwc/order_system' />">github</a></td>
+            href="<c:url value='https://github.com/yskkwc/order_system' />">Github</a></td>
         </tr>
       </table>
     </div>
@@ -43,7 +43,7 @@
         <tr>
           <th>URL</th>
           <td><a class="url"
-            href="<c:url value='https://github.com/yskkwc/yskkwc-portfolio' />">git
+            href="<c:url value='https://github.com/yskkwc/portfolio-kwc' />">Git
               hub</a></td>
         </tr>
       </table>
