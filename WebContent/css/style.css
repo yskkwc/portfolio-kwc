@@ -45,6 +45,9 @@ ul{
   margin: 0;
   display: flex;
 }
+ul.kinou{
+  display:block;
+}
 li{
   margin: 0 0 0 15px;
   font-size: 14px;
@@ -55,7 +58,7 @@ nav{
 div#content{
   position: relative;
   width: 100%;
-  padding: 108px;
+  padding: 70px;
   padding-top: 20px;
   line-height: 24px;
   text-align: center;
@@ -86,7 +89,13 @@ div.languege{
   text-align: center;
   margin-left: 10%;
   border-radius:45%;
-
+}
+div.contacts{
+  background-color: #fff;
+  padding: 60px;
+  width: 100%;
+  text-align: center;
+  border-radius:48%;
 }
 div.productions{
   vertical-align: top;
@@ -97,7 +106,6 @@ div.productions{
   width: 80%;
   background-color: #fff;
 }
-
 div.title{
     width: 7%;
     height: 10%;
@@ -113,7 +121,9 @@ div.title1{
   text-align: center;
   border-radius:48%;
 }
+div.content3{
 
+}
 p.intro{
   font-size: 90%;
   display: inline-block;
@@ -181,7 +191,7 @@ table.product{
   border-collapse: separate;
   border: none;
   border-spacing: 3px 9px;
-  margin-left: 4px;
+
 }
 table.product th {
   width: 20%;
@@ -204,7 +214,7 @@ table.product td {
   border: none;
 }
 table.product1{
-  width: 56%;
+  width: 66%;
   text-align: center;
   padding: 5px;
   margin: 5px;
@@ -212,10 +222,10 @@ table.product1{
   border-collapse: separate;
   border: none;
   border-spacing: 3px 9px;
-  margin-left: 30%;
+  margin-left: 18%;
 }
 table.product1 th {
-  width: 10%;
+  width: 15%;
   padding: 30px;
   font-weight: bold;
   vertical-align: center;
@@ -226,14 +236,44 @@ table.product1 th {
   border-radius:48%;
 }
 table.product1 td {
-  width: 40%;
+  width: 30%;
   padding: 10px;
   texit-align: left;
   vertical-align: middle;
   border: solid 1px black;
   border: none;
 }
-
+table.product2{
+  width: 70%;
+  text-align: center;
+  padding: 15px;
+  margin: 15px;
+  margin-left: 75px;
+  vertical-align: top;
+  border-collapse: separate;
+  border: none;
+  border-spacing: 3px 9px;
+}
+table.product2 th {
+  width: 20%;
+  height: 10%;
+  padding: 30px;
+  font-weight: bold;
+  vertical-align: center;
+  background: #DDDDDD;
+  color: #000;
+  border: solid 1px black;
+  border: none;
+  border-radius:50%;
+}
+table.product2 td {
+  width: 48%;
+  position: relative;
+  padding: 20px;
+  vertical-align: middle;
+  border: solid 1px black;
+  border: none;
+}
 p.body{
   padding-left: 2%;
   font-size: 90%
@@ -252,19 +292,30 @@ div.content1{
   padding: 30px;
   margin:  35px;
   margin-left: 5px;
-  height:  760px;
+  height:  700px;
   width: 100%;
   background-color: #fff;
   border-radius:50%;
 }
 div.content2{
-  display: inline-block;
+  position: relative;
+  width: 100%;
   padding: 20px;
-  margin: 10px;
-  height:  900px;
+  padding-top: 20px;
+  line-height: 24px;
+  text-align: left;
+  word-break: break-all;
+  .font_space: {letter-spacing: 0.1em}
+}
+div.content3{
+    display: inline-block;
+  padding: 30px;
+  margin:  35px;
+  margin-left: 5px;
+  height:  460px;
   width: 100%;
   background-color: #fff;
-  border-radius:25%;
+  border-radius:50%;
 }
 a.url{
   top: 50%;
@@ -306,4 +357,36 @@ div.or{
 }
 p.title{
 
+}
+a.url1{
+    transform: translate(-50%,-50%);
+  margin: 0;
+  padding: 0 20px;
+  font-size: 90%;
+  color: #fb8b24;
+  text-shadow: 0 0 50px #fb8b24;
+  letter-spacing: 5px;
+  text-decoration: underline;
+}
+div.otitle{
+  position: relative;
+  width: 100%;
+  line-height: 24px;
+  text-align: center;
+  word-break: break-all;
+}
+h2.otitle{
+  background-color: #fff;
+}
+div.ocontent{
+  position: relative;
+  width: 98%;
+  background-color: #fff;
+  padding: 10px;
+  margin: 10px;
+  padding-top: 20px;
+  line-height: 24px;
+  text-align: left;
+  word-break: break-all;
+  .font_space: {letter-spacing: 0.1em}
 }

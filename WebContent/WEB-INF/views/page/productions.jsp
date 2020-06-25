@@ -29,9 +29,22 @@
           </tr>
         </table>
     </div>
-    <div class="content1">
+    <div class="content3">
         <h2 class="ptitle">ポートフォリオ</h2>
-        <a href="<c:url value='https://github.com/yskkwc/yskkwc-portfolio' />">git hub URL</a>
+        <table class="product1">
+          <tr>
+            <th>制作環境</th>
+            <td>Java/HTML5/CSS/github/heroku</td>
+          </tr>
+          <tr>
+            <th>URL</th>
+            <td></td>
+          </tr>
+          <tr>
+            <th>URL</th>
+            <td><a class="url" href="<c:url value='https://github.com/yskkwc/yskkwc-portfolio' />">git hub</a></td>
+          </tr>
+        </table>
     </div>
   </c:param>
 </c:import>

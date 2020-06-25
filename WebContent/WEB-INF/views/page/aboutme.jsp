@@ -4,7 +4,7 @@
   <c:param name="content">
   <div class="text1">
     <h2 class="atitle">About me;</h2><br/>
-    <p class="title">・これまでの経歴</p>
+    <p class="title">これまでの経歴</p>
         <table class="product" border="1">
         <tr>
           <th nowrap><p class="intro">最終学歴</th>
