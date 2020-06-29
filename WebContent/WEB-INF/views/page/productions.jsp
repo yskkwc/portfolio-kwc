@@ -5,13 +5,15 @@
   <c:param name="content">
     <div class="title1">
       <h2 class="ptitle">Productions;</h2>
-      <p>制作物のご紹介</p>
+      <img class="icon" src=""><p><img class="icon" alt="penicon" src="https://image-kwc.s3-ap-northeast-1.amazonaws.com/icon_111070_32.png">制作物のご紹介</p>
     </div>
-    <div class="content1">
       <div class="or">
+        <br/>
         <h2>注文アプリケーション</h2>
         <br />
+        <img class="scr" alt="スクショ" src="https://image-kwc.s3-ap-northeast-1.amazonaws.com/%E3%82%B9%E3%82%AF%E3%83%AA%E3%83%BC%E3%83%B3%E3%82%B7%E3%83%A7%E3%83%83%E3%83%88+2020-06-24+13.41.49.png">
       </div>
+      <div class="content1">
       <table class="product1">
         <tr>
           <th>制作経緯</th>
@@ -38,7 +40,7 @@
       <table class="product1">
         <tr>
           <th>制作環境</th>
-          <td>Java/HTML5/CSS/Eclipce/github/heroku</td>
+          <td>Java/HTML5/CSS/Eclipce/github/heroku/Amazon S3</td>
         </tr>
         <tr>
           <th>URL</th>

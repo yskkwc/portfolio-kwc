@@ -8,11 +8,10 @@
 <title>portfolio</title>
 <link rel="stylesheet" href="<c:url value='/css/reset.css' />">
 <link rel="stylesheet" href="<c:url value='/css/style.css' />">
-<link rel="stylesheet" href="<c:url value='/css/image.css' />">
 </head>
 <header>
   <h1>
-    <a href="<c:url value='/page/aboutme'/>">Yusuke Kawachi's portfolio</a>
+    <a href="<c:url value='/'/>">Yusuke Kawachi's portfolio</a>
   </h1>
   <nav class="nav">
     <ul>

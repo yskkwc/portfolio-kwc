@@ -4,7 +4,7 @@
 <c:import url="../layout/app.jsp">
   <c:param name="content">
     <div class="text1">
-      <h2 class="atitle">About me;</h2>
+      <h2 class="atitle"><img class="icon" alt="手帳アイコン" src="https://image-kwc.s3-ap-northeast-1.amazonaws.com/icon_111400_32.png">About me;</h2>
       <br />
       <p class="atitle">これまでの経歴</p>
       <table class="product" border="1">

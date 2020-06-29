@@ -3,6 +3,7 @@
 <c:import url="../layout/app.jsp">
   <c:param name="content">
   <div class="contacts">
+  <img class="icon" src='https://image-kwc.s3-ap-northeast-1.amazonaws.com/icon_112180_32.png' alt="連絡">
   <h2 class="title">Contacts;</h2>
     <table class="product2">
     <tr>
